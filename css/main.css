@@ -23,7 +23,8 @@
    text-decoration: none;
    color: #181818;
    position: relative;
-   z-index: 99;;
+   z-index: 99;
+   border: 1px solid #FFCD3F;
 }
 .btnBook::before{
    position: absolute;
@@ -367,18 +368,28 @@ header{
    margin: 0 auto;
    padding: 15px 18%;
 }
+.blackBg .subsBox .reqField{
+   position: relative;
+   width: 50%;
+   margin: 0 auto;
+}
 .blackBg .subsBox{
    margin-top: 30px;
 }
+.blackBg .subsBox i{
+   position: absolute;
+   left: 0;
+   color: #FFCD3F;
+}
 .blackBg .subsBox input{
-   width: 50%;
+   width: 100%;
    border: 0;
    border-bottom: 1px solid #FFCD3F;
    padding: 15px 0;
    padding-left: 50px;
    background: transparent;
    outline: none;
-   background: url(../img/);
+   color: #919191;
 }
 .blackBg .btnBook{
    margin: 35px auto 0;
